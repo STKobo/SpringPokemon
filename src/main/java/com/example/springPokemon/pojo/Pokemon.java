@@ -5,12 +5,12 @@ import java.util.List;
 public class Pokemon {
     private Long id;
     private String surname;
-    private List<Capacite> capacites;
+    private List<Capacite> capacitesList;
 
-    public Pokemon(Long id, String surname, List<Capacite> capacites) {
+    public Pokemon(Long id, String surname, List<Capacite> capacitesList) {
         this.id = id;
         this.surname = surname;
-        this.capacites = capacites;
+        this.capacitesList = capacitesList;
     }
 
 
@@ -31,11 +31,11 @@ public class Pokemon {
     }
 
     public List<Capacite> getCapacites() {
-        return this.capacites;
+        return this.capacitesList;
     }
 
     public void setCapacites(List<Capacite> capacites) {
-        this.capacites = capacites;
+        this.capacitesList = capacites;
     }
 
 }
