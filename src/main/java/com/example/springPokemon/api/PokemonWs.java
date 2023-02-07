@@ -24,7 +24,7 @@ public class PokemonWs {
 
     @PostMapping
     public void createPokemon(@RequestBody Pokemon pokemon){
-        return null,
+        
     }
 
     @PutMapping("{name}")
